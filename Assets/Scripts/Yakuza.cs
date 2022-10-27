@@ -6,7 +6,7 @@ public class Yakuza : MonoBehaviour
 {
     void Start()
     {
-        
+        //rararrarar
     }
 
     void Update()
