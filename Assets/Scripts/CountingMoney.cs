@@ -8,16 +8,15 @@ public class CountingMoney : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI amountText;
 
-    private float amount = 0;
-    public float Amount { get => amount; set => amount = value; }
+
     private void Start()
     {
         amountText.text = "0 $";
-        Amount = 5;
+        GameManager.instance.Amount = 5;
     }
     private void Update()
     {
-        ChangeText(Amount);
+        ChangeText(GameManager.instance.Amount);
     }
     public void ChangeText(float amount)
     {

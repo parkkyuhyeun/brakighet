@@ -26,12 +26,12 @@ public class ButtonManager : MonoBehaviour
     }
     public void MakeObject()
     {
-        if(count.Amount >= 5)
+        if(GameManager.instance.Amount >= 5)
         {
             float randomX = Random.Range(-9f, 9f);
             float randomY = Random.Range(-2f, 2f);
             Instantiate(objectToCreate, new Vector3(randomX,randomY,0), Quaternion.identity);
-            count.Amount -= 5;
+            GameManager.instance.Amount -= 5;
         }
     }
     public void ClosePopup()

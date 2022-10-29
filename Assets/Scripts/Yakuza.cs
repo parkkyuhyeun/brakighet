@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class Yakuza : MonoBehaviour
 {
-    void Start()
-    {
-        //rararrarar
-    }
+    private float money = 20;
+    private float waitTime = 2f;
 
-    void Update()
+    private void Start()
     {
-        
+        StartCoroutine(MakeMoney());
+    }
+    IEnumerator MakeMoney()
+    {
+        while (true)
+        {
+            if (gameObject.activeSelf)
+            {
+                yield return new WaitForSeconds(waitTime);
+                GameManager.instance.Amount += money;
+            }
+        }
     }
 }
