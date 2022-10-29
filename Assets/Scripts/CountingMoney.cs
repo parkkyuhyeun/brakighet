@@ -12,7 +12,7 @@ public class CountingMoney : MonoBehaviour
     private void Start()
     {
         amountText.text = "0 $";
-        GameManager.instance.Amount = 5;
+        GameManager.instance.Amount = 10;
     }
     private void Update()
     {

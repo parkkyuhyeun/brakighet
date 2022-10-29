@@ -12,8 +12,6 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] Button anotherButton;
 
     [SerializeField] GameObject objectToCreate;
-
-    [SerializeField] CountingMoney count;
     public void OpenPopup()
     {
         pressedButton.interactable = false;
@@ -26,12 +24,12 @@ public class ButtonManager : MonoBehaviour
     }
     public void MakeObject()
     {
-        if(GameManager.instance.Amount >= 5)
+        if(GameManager.instance.Amount >= 10)
         {
             float randomX = Random.Range(-9f, 9f);
             float randomY = Random.Range(-2f, 2f);
             Instantiate(objectToCreate, new Vector3(randomX,randomY,0), Quaternion.identity);
-            GameManager.instance.Amount -= 5;
+            GameManager.instance.Amount -= 10;
         }
     }
     public void ClosePopup()

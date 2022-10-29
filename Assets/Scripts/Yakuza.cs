@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Yakuza : MonoBehaviour
 {
-    private float money = 20;
-    private float waitTime = 2f;
+    public float money;
+    private float waitTime = 5f;
 
     private void Start()
     {
