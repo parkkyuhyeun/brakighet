@@ -9,10 +9,12 @@ public class YakuzaButton : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI yakuzaText;
 
-    private float cost = 10;
+    public float level;
+    public float cost;
+    public float increasingValue;
     private void Start()
     {
-        yakuzaText.text = "Yakuza\ncost:10$";
+        yakuzaText.text = $"Yakuza class {level}\ncost:{cost}$";
     }
     public void MakeObject()
     {
@@ -23,7 +25,7 @@ public class YakuzaButton : MonoBehaviour
             float randomZ = Random.Range(0f, 10f);
             Instantiate(objectToCreate, new Vector3(randomX, randomY, randomZ), Quaternion.identity);
             GameManager.instance.Amount -= cost;
-            cost += 5;
+            cost += increasingValue;
         }
     }
     private void Update()

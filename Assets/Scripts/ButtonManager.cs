@@ -7,19 +7,18 @@ using TMPro;
 public class ButtonManager : MonoBehaviour
 {
     [SerializeField] GameObject popup;
-    [SerializeField] GameObject otherPopup;
 
     [SerializeField] Button pressedButton;
-    [SerializeField] Button anotherButton;
+    [SerializeField] Button[] anotherButton;
     public void OpenPopup()
     {
         pressedButton.interactable = false;
-        anotherButton.interactable = false;
-
-        if (otherPopup.gameObject.activeSelf == false)
+        foreach(Button b in anotherButton)
         {
-            popup.SetActive(!popup.gameObject.activeSelf);
+            b.interactable = false;
         }
+
+        popup.SetActive(!popup.gameObject.activeSelf);
     }
     public void ClosePopup()
     {
@@ -28,7 +27,10 @@ public class ButtonManager : MonoBehaviour
             popup.SetActive(false);
         }
         pressedButton.interactable = true;
-        anotherButton.interactable = true;
+        foreach (Button b in anotherButton)
+        {
+            b.interactable = true;
+        }
     }
     
 }
