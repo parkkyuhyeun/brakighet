@@ -34,6 +34,6 @@ public class YakuzaButton : MonoBehaviour
     }
     public void ChangeText(float cost)
     {
-        yakuzaText.text = $"Yakuza\ncost:{cost}$";
+        yakuzaText.text = $"Yakuza class {level}\ncost:{cost}$";
     }
 }
