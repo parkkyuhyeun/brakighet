@@ -13,7 +13,7 @@ public class FurnitureButton : MonoBehaviour
     private float increasingLevel = 1f;
 
     public float cost;
-    private float increasingCost = 100;
+    private float increasingCost = 300f;
 
     private float positionX;
     private float increasingPosition = 8f;

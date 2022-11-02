@@ -10,18 +10,13 @@ public class Yakuza : MonoBehaviour
     [SerializeField]
     private bool furnitureItSum = false;
 
-    private Furniture furniture = null;
-
     private void Start()
     {
         StartCoroutine(MakeMoney());
     }
     private void FixedUpdate()
     {
-        if (GameObject.FindObjectOfType<Furniture>() != null)
-        {
-            furnitureItSum = true;
-        }
+
     }
 
     IEnumerator MakeMoney()
@@ -31,9 +26,15 @@ public class Yakuza : MonoBehaviour
             if (gameObject.activeSelf)
             {
                 yield return new WaitForSeconds(waitTime);
+                Furniture[] furniture = GameObject.FindObjectsOfType<Furniture>();
+                if (furniture.Length >0)
+                {
+                    furnitureItSum = true;
+                }
                 if (furnitureItSum)
                 {
-                    GameManager.instance.Amount += money * 1.125f;
+                    money *= 1 + (0.125f * furniture.Length);
+                    GameManager.instance.Amount += money;
                 }
                 else
                 {
