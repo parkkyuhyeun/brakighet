@@ -1094,7 +1094,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popup: {fileID: 1962957779}
   pressedButton: {fileID: 1087786756}
-  anotherButton: []
+  anotherButton:
+  - {fileID: 62365554}
+  - {fileID: 583965816}
 --- !u!114 &497624248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2594,7 +2596,7 @@ MonoBehaviour:
   objectToCreate: {fileID: 9205414293858069117, guid: 259725d35088b7c4591211ebe7dd8066, type: 3}
   furnitureText: {fileID: 631743627}
   level: 1
-  cost: 0
+  cost: 300
 --- !u!1 &909110878
 GameObject:
   m_ObjectHideFlags: 0
