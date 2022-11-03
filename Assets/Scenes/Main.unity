@@ -889,7 +889,7 @@ MonoBehaviour:
   objectToCreate: {fileID: 838758781762521944, guid: 1830e2f36118e624fa04d5788343c32e, type: 3}
   yakuzaText: {fileID: 2116588765}
   level: 2
-  cost: 20
+  cost: 40
   increasingValue: 2
 --- !u!1 &434523386
 GameObject:
@@ -1712,8 +1712,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2326,7 +2326,7 @@ MonoBehaviour:
   objectToCreate: {fileID: 7451734630227591054, guid: f8ea5eba22d960145943b0c8ec2b43e5, type: 3}
   yakuzaText: {fileID: 434523388}
   level: 4
-  cost: 80
+  cost: 640
   increasingValue: 8
 --- !u!1 &825568463
 GameObject:
@@ -2413,8 +2413,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2734,7 +2734,7 @@ MonoBehaviour:
   objectToCreate: {fileID: 9205414293858069117, guid: 259725d35088b7c4591211ebe7dd8066, type: 3}
   furnitureText: {fileID: 631743627}
   level: 1
-  cost: 300
+  cost: 5000
 --- !u!1 &909110878
 GameObject:
   m_ObjectHideFlags: 0
@@ -4214,7 +4214,7 @@ MonoBehaviour:
   objectToCreate: {fileID: 3311548994880933814, guid: f71926ef3325fb0499250eeaf92cea7e, type: 3}
   yakuzaText: {fileID: 909110880}
   level: 3
-  cost: 40
+  cost: 160
   increasingValue: 4
 --- !u!1 &1448312264
 GameObject:
@@ -5066,7 +5066,7 @@ MonoBehaviour:
   objectToCreate: {fileID: 8247148399956153956, guid: b177443b67932444a92b8ee507b8e322, type: 3}
   yakuzaText: {fileID: 641194765}
   level: 5
-  cost: 160
+  cost: 2560
   increasingValue: 16
 --- !u!1 &2116588763
 GameObject:
