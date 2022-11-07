@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class UpgradeButton : MonoBehaviour
 {
-    
+    public void IncreaseRateOfMoney(float amount)
+    {
+        UpgradeManager.Instance.MoneyRate += amount;
+    }
 }

@@ -27,17 +27,19 @@ public class Yakuza : MonoBehaviour
             {
                 yield return new WaitForSeconds(waitTime);
                 Furniture[] furniture = GameObject.FindObjectsOfType<Furniture>();
-                if (furniture.Length >0)
+                if (furniture.Length > 0)
                 {
                     furnitureItSum = true;
                 }
                 if (furnitureItSum)
                 {
                     money *= 1 + (0.125f * furniture.Length);
+                    money += UpgradeManager.Instance.MoneyRate;
                     GameManager.instance.Amount += money;
                 }
                 else
                 {
+                    money += UpgradeManager.Instance.MoneyRate;
                     GameManager.instance.Amount += money;
                 }
             }

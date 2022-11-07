@@ -15,4 +15,5 @@ public class GameManager : MonoBehaviour
 
     private float amount = 0;
     public float Amount { get => amount; set => amount = value; }
+
 }
