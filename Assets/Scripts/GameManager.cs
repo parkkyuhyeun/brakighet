@@ -16,4 +16,6 @@ public class GameManager : MonoBehaviour
     private float amount = 0;
     public float Amount { get => amount; set => amount = value; }
 
+    private float combat = 0;
+    public float Combat { get => combat; set => combat = value; }
 }

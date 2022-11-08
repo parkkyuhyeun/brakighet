@@ -16,7 +16,7 @@ public class UpgradeManager : MonoBehaviour
         }
     }
 
-    [SerializeField] private float moneyRate = 0.125f;
+    [SerializeField] private float moneyRate = 0.0f;
 
     public float MoneyRate
     {

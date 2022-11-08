@@ -5,6 +5,8 @@ using UnityEngine;
 public class Yakuza : MonoBehaviour
 {
     public float money;
+    public float combat;
+
     private float waitTime = 5f;
 
     [SerializeField]
@@ -13,6 +15,7 @@ public class Yakuza : MonoBehaviour
     private void Start()
     {
         StartCoroutine(MakeMoney());
+        StartCoroutine(IncreaseCombat());
     }
     private void FixedUpdate()
     {
@@ -43,6 +46,14 @@ public class Yakuza : MonoBehaviour
                     GameManager.instance.Amount += money;
                 }
             }
+        }
+    }
+    IEnumerator IncreaseCombat()
+    {
+        if (gameObject.activeSelf)
+        {
+            GameManager.instance.Combat += combat;
+            yield return 0;
         }
     }
 }

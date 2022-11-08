@@ -112,6 +112,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   money: 32
+  combat: 5
+  furnitureItSum: 0
 --- !u!54 &-5150969922992221317
 Rigidbody:
   m_ObjectHideFlags: 0
