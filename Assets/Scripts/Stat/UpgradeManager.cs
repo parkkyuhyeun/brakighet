@@ -17,11 +17,17 @@ public class UpgradeManager : MonoBehaviour
     }
 
     [SerializeField] private float moneyRate = 0.0f;
+    [SerializeField] private float combatRate = 0.0f;
 
     public float MoneyRate
     {
         get => moneyRate;
         set => moneyRate = value;
+    }
+    public float CombatRate
+    {
+        get => combatRate;
+        set => combatRate = value;
     }
 
 }

@@ -52,6 +52,7 @@ public class Yakuza : MonoBehaviour
     {
         if (gameObject.activeSelf)
         {
+            combat += UpgradeManager.Instance.CombatRate;
             GameManager.instance.Combat += combat;
             yield return 0;
         }

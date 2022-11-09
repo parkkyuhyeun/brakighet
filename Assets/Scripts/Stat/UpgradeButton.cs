@@ -8,4 +8,8 @@ public class UpgradeButton : MonoBehaviour
     {
         UpgradeManager.Instance.MoneyRate += amount;
     }
+    public void IncreaseCombat(float power)
+    {
+        UpgradeManager.Instance.CombatRate += power;
+    }
 }
