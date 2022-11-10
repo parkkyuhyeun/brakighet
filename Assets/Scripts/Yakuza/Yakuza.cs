@@ -6,6 +6,7 @@ public class Yakuza : MonoBehaviour
 {
     public float money;
     public float combat;
+    public int point;
 
     private float waitTime = 5f;
 
@@ -16,10 +17,7 @@ public class Yakuza : MonoBehaviour
     {
         StartCoroutine(MakeMoney());
         StartCoroutine(IncreaseCombat());
-    }
-    private void FixedUpdate()
-    {
-
+        StartCoroutine(GetPoint());
     }
 
     IEnumerator MakeMoney()
@@ -55,6 +53,17 @@ public class Yakuza : MonoBehaviour
             combat += UpgradeManager.Instance.CombatRate;
             GameManager.instance.Combat += combat;
             yield return 0;
+        }
+    }
+    IEnumerator GetPoint()
+    {
+        while (true)
+        {
+            if (gameObject.activeSelf)
+            {
+                yield return new WaitForSeconds(300);
+                GameManager.instance.UpgradePoint += point;
+            }
         }
     }
 }

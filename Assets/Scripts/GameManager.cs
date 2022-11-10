@@ -18,4 +18,7 @@ public class GameManager : MonoBehaviour
 
     private float combat = 0;
     public float Combat { get => combat; set => combat = value; }
+
+    private int upgradePoint = 0;
+    public int UpgradePoint { get => upgradePoint; set => upgradePoint = value; }
 }

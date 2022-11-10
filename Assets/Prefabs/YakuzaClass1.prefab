@@ -113,6 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   money: 2
   combat: 1
+  point: 1
   furnitureItSum: 0
 --- !u!54 &3844256269911376544
 Rigidbody:
