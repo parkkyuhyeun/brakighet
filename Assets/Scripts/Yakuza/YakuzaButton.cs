@@ -8,6 +8,7 @@ public class YakuzaButton : MonoBehaviour
     [SerializeField] GameObject objectToCreate;
 
     [SerializeField] TextMeshProUGUI yakuzaText;
+    [SerializeField] private GameObject clickSound;
 
     public float level;
     public float cost;
@@ -35,5 +36,10 @@ public class YakuzaButton : MonoBehaviour
     public void ChangeText(float cost)
     {
         yakuzaText.text = $"Yakuza class {level}\ncost:{cost}$";
+    }
+    public void PlaySound()
+    {
+        GameObject sound = GameObject.Instantiate(clickSound, transform);
+        sound.GetComponent<AudioSource>().Play();
     }
 }

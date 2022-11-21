@@ -11,6 +11,7 @@ public class ButtonManager : MonoBehaviour
 
     [SerializeField] Button pressedButton;
     [SerializeField] Button[] anotherButton;
+    
     public void OpenPopup()
     {
         pressedButton.interactable = false;
@@ -38,5 +39,6 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    
     
 }
