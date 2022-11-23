@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be877225d38025d458234cfd81da48b0
-      internalID: 823691643
+      spriteID: f75fa7ae9c635a44791e03b47cb2c0e5
+      internalID: -545971610
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7418f01f9f495444a905073aa26dd8e
-      internalID: 1060035619
+      spriteID: b40773cf3a588824792f6adcb345cb48
+      internalID: 751974868
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edb50c2925f96e643a0d57c7209d7f70
-      internalID: 568300793
+      spriteID: 73a4f9864f095394b9d63fc88e2ca254
+      internalID: 871290976
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d87695472ad88c4d91974fab8c939c2
-      internalID: -649815083
+      spriteID: eb9eb537cbad40d448f79313903a39e7
+      internalID: 1710509783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 165
+        width: 310
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a265739d445285540a85564cc9684c94
+      internalID: 656933546
       vertices: []
       indices: 
       edges: []
@@ -191,7 +212,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d879649669500ed4bbe391bb2142ecb1
+    spriteID: 8cff3178e8689cf469553ab50ff8528a
     internalID: 0
     vertices: []
     indices: 
@@ -199,10 +220,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      UI_1: 1060035619
-      UI_2: 568300793
-      UI_3: -649815083
-      UI_0: 823691643
+      UI_1: 751974868
+      UI_4: 656933546
+      UI_2: 871290976
+      UI_3: 1710509783
+      UI_0: -545971610
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
