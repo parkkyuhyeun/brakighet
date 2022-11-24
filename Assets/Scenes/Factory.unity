@@ -1090,7 +1090,7 @@ MonoBehaviour:
   clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
   level: 2
   cost: 40
-  increasingValue: 2
+  increasingValue: 20
 --- !u!1 &423175438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
   level: 1
   cost: 10
-  increasingValue: 1
+  increasingValue: 5
 --- !u!114 &476917627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2721,7 +2721,7 @@ MonoBehaviour:
   clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
   level: 4
   cost: 640
-  increasingValue: 8
+  increasingValue: 320
 --- !u!1 &825568463
 GameObject:
   m_ObjectHideFlags: 0
@@ -5042,7 +5042,7 @@ MonoBehaviour:
   clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
   level: 3
   cost: 160
-  increasingValue: 4
+  increasingValue: 80
 --- !u!1 &1448312264
 GameObject:
   m_ObjectHideFlags: 0
@@ -6499,7 +6499,7 @@ MonoBehaviour:
   clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
   level: 5
   cost: 2560
-  increasingValue: 16
+  increasingValue: 1280
 --- !u!1 &2093739972
 GameObject:
   m_ObjectHideFlags: 0

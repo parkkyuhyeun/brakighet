@@ -111,8 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8616fe892cd6eaf42b45d91ef53fcbd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 32
-  combat: 5
+  money: 5
+  combat: 1024
   point: 5
   furnitureItSum: 0
 --- !u!54 &-5150969922992221317
