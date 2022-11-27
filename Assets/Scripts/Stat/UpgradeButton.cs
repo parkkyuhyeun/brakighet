@@ -7,6 +7,8 @@ public class UpgradeButton : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI usingPointText;
 
+    [SerializeField] GameObject clickSound;
+
     public int pointConsumption;
     public int pointConsumption2;
     public int increasingPoint;
@@ -34,5 +36,10 @@ public class UpgradeButton : MonoBehaviour
     public void ChangeText(int point)
     {
         usingPointText.text = $"-{point} point";
+    }
+    public void PlaySound()
+    {
+        GameObject sound = Instantiate(clickSound, transform);
+        sound.GetComponent<AudioSource>().Play();
     }
 }

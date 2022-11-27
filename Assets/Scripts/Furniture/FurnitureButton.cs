@@ -9,6 +9,8 @@ public class FurnitureButton : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI furnitureText;
 
+    [SerializeField] private GameObject clickSound;
+
     public float level;
     private float increasingLevel = 1f;
 
@@ -41,5 +43,11 @@ public class FurnitureButton : MonoBehaviour
     public void ChangeText(float cost)
     {
         furnitureText.text = $"level {level} Furniture\ncost:{cost}$";
+    }
+
+    public void PlaySound()
+    {
+        GameObject sound = GameObject.Instantiate(clickSound, transform);
+        sound.GetComponent<AudioSource>().Play();
     }
 }

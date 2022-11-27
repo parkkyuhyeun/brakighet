@@ -182,6 +182,7 @@ MonoBehaviour:
   - {fileID: 583965816}
   - {fileID: 1176250363}
   - {fileID: 881414401}
+  clickSound: {fileID: 0}
 --- !u!114 &13656751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +373,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 62365557}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &62365555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,6 +440,7 @@ MonoBehaviour:
   anotherButton:
   - {fileID: 1087786756}
   - {fileID: 583965816}
+  clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
 --- !u!1 &125871679
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,6 +940,7 @@ MonoBehaviour:
   pressedButton: {fileID: 334897216}
   anotherButton:
   - {fileID: 1527411781}
+  clickSound: {fileID: 0}
 --- !u!1 &346199148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1585,6 +1600,7 @@ MonoBehaviour:
   anotherButton:
   - {fileID: 62365554}
   - {fileID: 583965816}
+  clickSound: {fileID: 0}
 --- !u!114 &497624248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1953,6 +1969,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 62365557}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &583965817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2008,6 +2036,7 @@ MonoBehaviour:
   anotherButton:
   - {fileID: 62365554}
   - {fileID: 1087786756}
+  clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
 --- !u!1 &631743625
 GameObject:
   m_ObjectHideFlags: 0
@@ -2954,6 +2983,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 845917595}
+        m_TargetAssemblyTypeName: UpgradeButton, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &845917593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3005,6 +3046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usingPointText: {fileID: 1589184758}
+  clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
   pointConsumption: 1
   pointConsumption2: 1
   increasingPoint: 1
@@ -3106,6 +3148,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 881414404}
+        m_TargetAssemblyTypeName: FurnitureButton, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &881414402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3158,6 +3212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToCreate: {fileID: 9205414293858069117, guid: 259725d35088b7c4591211ebe7dd8066, type: 3}
   furnitureText: {fileID: 631743627}
+  clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
   level: 1
   cost: 5000
 --- !u!1 &900076137
@@ -4010,6 +4065,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 62365557}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1087786757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4065,6 +4132,7 @@ MonoBehaviour:
   anotherButton:
   - {fileID: 62365554}
   - {fileID: 583965816}
+  clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
 --- !u!1 &1104921468
 GameObject:
   m_ObjectHideFlags: 0
@@ -4254,6 +4322,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1176250366}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1176250364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4308,6 +4388,7 @@ MonoBehaviour:
   pressedButton: {fileID: 1176250363}
   anotherButton:
   - {fileID: 881414401}
+  clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
 --- !u!1 &1178567510
 GameObject:
   m_ObjectHideFlags: 0
@@ -4519,6 +4600,7 @@ MonoBehaviour:
   pressedButton: {fileID: 1176250363}
   anotherButton:
   - {fileID: 881414401}
+  clickSound: {fileID: 0}
 --- !u!114 &1337439836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5429,6 +5511,7 @@ MonoBehaviour:
   - {fileID: 62365554}
   - {fileID: 1087786756}
   - {fileID: 583965816}
+  clickSound: {fileID: 0}
 --- !u!1 &1537130540
 GameObject:
   m_ObjectHideFlags: 0
@@ -5483,6 +5566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usingPointText: {fileID: 903481516}
+  clickSound: {fileID: 4833779885289080725, guid: 67640c9bd1ec4874e8e32ab9da79341f, type: 3}
   pointConsumption: 1
   pointConsumption2: 1
   increasingPoint: 1
@@ -5540,6 +5624,18 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0.05
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 845917595}
+        m_TargetAssemblyTypeName: UpgradeButton, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2

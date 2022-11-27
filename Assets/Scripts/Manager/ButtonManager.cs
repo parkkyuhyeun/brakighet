@@ -11,6 +11,8 @@ public class ButtonManager : MonoBehaviour
 
     [SerializeField] Button pressedButton;
     [SerializeField] Button[] anotherButton;
+
+    [SerializeField] private GameObject clickSound;
     
     public void OpenPopup()
     {
@@ -39,6 +41,10 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
-    
-    
+
+    public void PlaySound()
+    {
+        GameObject sound = GameObject.Instantiate(clickSound, transform);
+        sound.GetComponent<AudioSource>().Play();
+    }
 }
